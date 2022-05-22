@@ -56,10 +56,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.11.12":
+"@types/node@npm:*":
   version: 16.11.12
   resolution: "@types/node@npm:16.11.12"
   checksum: a3feb346d61a56f5a137c29bb8c63cfa3cc02e184b9dffdc18ef1528dcce55596e570575215a2e39e6ce69343eeb2a5ba71c271938f1dc8db4cc393902855412
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:16.11.36":
+  version: 16.11.36
+  resolution: "@types/node@npm:16.11.36"
+  checksum: 878e8e2032869785dd4f73dd862042c7eb588fb9a27199f1b493a7029438ccb58f96e203c35c2e66e08307ca3f9767133cae888958c15e031982f7e9719e5e47
   languageName: node
   linkType: hard
 
@@ -609,7 +616,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nochnbot@workspace:."
   dependencies:
-    "@types/node": ^16.11.12
+    "@types/node": 16.11.36
     dotenv: ^10.0.0
     express: ^4.17.1
     grammy: latest
@@ -885,7 +892,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.5.4#~builtin<compat/typescript>":
   version: 4.5.4
-  resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
